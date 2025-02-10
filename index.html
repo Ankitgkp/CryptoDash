@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="app">
+      <nav class="nav-tabs">
+        <div class="nav-tab active">Popular</div>
+        <div class="nav-tab">New Listing</div>
+        <a href="#" class="view-all">View All 350+ Coins →</a>
+      </nav>
+      
+      <div class="crypto-list" id="cryptoList"></div>
+    </div>
+
+    <div class="modal" id="coinModal">
+      <div class="modal-content">
+        <!-- <button class="close-modal" onclick="closeModal()">x</button> -->
+        <div class="modal-header">
+          <div class="crypto-icon">
+            <img id="modalCoinIcon" src="" alt="">
+          </div>
+          <div class="modal-title"></div>
+        </div>
+        <div class="coin-details"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>

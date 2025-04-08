@@ -1,4 +1,4 @@
-const COINCAP_API = 'https://api.coincap.io/v2/assets';
+const COINCAP_API = 'https://rest.coincap.io/v3/assets?apiKey=f867aea842e8a1d2ac53bdc01cb120be8841e7f2057d960c8961a5412b08a5c7';
 const cryptoList = document.getElementById('cryptoList');
 const modal = document.getElementById('coinModal');
 
@@ -137,4 +137,4 @@ function updateCryptoList(data) {
 }
 
 fetchCryptoData();
-setInterval(fetchCryptoData, 30000);    
+setInterval(fetchCryptoData, 1000000);    
